@@ -1,0 +1,236 @@
+{
+  "questions": {
+    "singleChoice": [
+      {
+        "id": "q1",
+        "question": "JavaScript中的typeof运算符返回的不是以下哪个选项？",
+        "options": [
+          { "value": "A", "text": "string" },
+          { "value": "B", "text": "boolean" },
+          { "value": "C", "text": "array" },
+          { "value": "D", "text": "undefined" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q2",
+        "question": "以下哪个不是JavaScript的数据类型？",
+        "options": [
+          { "value": "A", "text": "number" },
+          { "value": "B", "text": "char" },
+          { "value": "C", "text": "boolean" },
+          { "value": "D", "text": "object" }
+        ],
+        "correct": "B",
+        "score": 4
+      },
+      {
+        "id": "q3",
+        "question": "在HTML5中，哪个属性可以用来验证表单字段是否必填？",
+        "options": [
+          { "value": "A", "text": "validate" },
+          { "value": "B", "text": "required" },
+          { "value": "C", "text": "mandatory" },
+          { "value": "D", "text": "important" }
+        ],
+        "correct": "B",
+        "score": 4
+      },
+      {
+        "id": "q4",
+        "question": "以下哪个不是有效的CSS选择器？",
+        "options": [
+          { "value": "A", "text": ".class" },
+          { "value": "B", "text": "#id" },
+          { "value": "C", "text": "@name" },
+          { "value": "D", "text": ">child" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q5",
+        "question": "在CSS中，以下哪个属性不能用来控制元素的位置？",
+        "options": [
+          { "value": "A", "text": "position" },
+          { "value": "B", "text": "float" },
+          { "value": "C", "text": "display" },
+          { "value": "D", "text": "color" }
+        ],
+        "correct": "D",
+        "score": 4
+      },
+      {
+        "id": "q6",
+        "question": "HTML5中，哪个标签不用于显示多媒体内容？",
+        "options": [
+          { "value": "A", "text": "<video>" },
+          { "value": "B", "text": "<audio>" },
+          { "value": "C", "text": "<media>" },
+          { "value": "D", "text": "<source>" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q7",
+        "question": "关于CSS盒模型，以下说法错误的是？",
+        "options": [
+          { "value": "A", "text": "margin可以为负值" },
+          { "value": "B", "text": "padding可以为负值" },
+          { "value": "C", "text": "border可以设置样式" },
+          { "value": "D", "text": "content包含元素的实际内容" }
+        ],
+        "correct": "B",
+        "score": 4
+      },
+      {
+        "id": "q8",
+        "question": "以下哪个不是JavaScript的事件类型？",
+        "options": [
+          { "value": "A", "text": "click" },
+          { "value": "B", "text": "hover" },
+          { "value": "C", "text": "submit" },
+          { "value": "D", "text": "load" }
+        ],
+        "correct": "B",
+        "score": 4
+      },
+      {
+        "id": "q9",
+        "question": "在JavaScript中，哪个方法不能用于字符串操作？",
+        "options": [
+          { "value": "A", "text": "split()" },
+          { "value": "B", "text": "slice()" },
+          { "value": "C", "text": "push()" },
+          { "value": "D", "text": "concat()" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q10",
+        "question": "以下哪个不是HTML5新增的input类型？",
+        "options": [
+          { "value": "A", "text": "date" },
+          { "value": "B", "text": "email" },
+          { "value": "C", "text": "password" },
+          { "value": "D", "text": "color" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q11",
+        "question": "关于CSS选择器优先级，以下说法错误的是？",
+        "options": [
+          { "value": "A", "text": "ID选择器优先级最高" },
+          { "value": "B", "text": "类选择器优先级高于标签选择器" },
+          { "value": "C", "text": "内联样式优先级最高" },
+          { "value": "D", "text": "通配符选择器(*)优先级最高" }
+        ],
+        "correct": "D",
+        "score": 4
+      },
+      {
+        "id": "q12",
+        "question": "以下哪个不是JavaScript的Promise状态？",
+        "options": [
+          { "value": "A", "text": "pending" },
+          { "value": "B", "text": "fulfilled" },
+          { "value": "C", "text": "rejected" },
+          { "value": "D", "text": "waiting" }
+        ],
+        "correct": "D",
+        "score": 4
+      },
+      {
+        "id": "q13",
+        "question": "在CSS中，以下哪个属性不会触发重排(reflow)？",
+        "options": [
+          { "value": "A", "text": "width" },
+          { "value": "B", "text": "height" },
+          { "value": "C", "text": "opacity" },
+          { "value": "D", "text": "top" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q14",
+        "question": "以下哪个不是有效的HTTP请求方法？",
+        "options": [
+          { "value": "A", "text": "GET" },
+          { "value": "B", "text": "POST" },
+          { "value": "C", "text": "SEND" },
+          { "value": "D", "text": "PUT" }
+        ],
+        "correct": "C",
+        "score": 4
+      },
+      {
+        "id": "q15",
+        "question": "关于localStorage和sessionStorage，以下说法错误的是？",
+        "options": [
+          { "value": "A", "text": "都是HTML5新增的存储方式" },
+          { "value": "B", "text": "localStorage数据永久存储" },
+          { "value": "C", "text": "sessionStorage在页面关闭后清除" },
+          { "value": "D", "text": "都可以跨域访问" }
+        ],
+        "correct": "D",
+        "score": 4
+      }
+    ],
+    "multipleChoice": [
+      {
+        "id": "m1",
+        "question": "以下哪些是JavaScript的循环语句？",
+        "options": [
+          { "value": "A", "text": "for" },
+          { "value": "B", "text": "while" },
+          { "value": "C", "text": "do...while" },
+          { "value": "D", "text": "if" }
+        ],
+        "correct": ["A", "B", "C"],
+        "score": 10
+      },
+      {
+        "id": "m2",
+        "question": "以下哪些是HTML5新增的语义化标签？",
+        "options": [
+          { "value": "A", "text": "<header>" },
+          { "value": "B", "text": "<nav>" },
+          { "value": "C", "text": "<footer>" },
+          { "value": "D", "text": "<div>" }
+        ],
+        "correct": ["A", "B", "C"],
+        "score": 10
+      },
+      {
+        "id": "m3",
+        "question": "以下哪些是CSS3新增的特性？",
+        "options": [
+          { "value": "A", "text": "圆角(border-radius)" },
+          { "value": "B", "text": "阴影(box-shadow)" },
+          { "value": "C", "text": "动画(animation)" },
+          { "value": "D", "text": "颜色(color)" }
+        ],
+        "correct": ["A", "B", "C"],
+        "score": 10
+      },
+      {
+        "id": "m4",
+        "question": "以下哪些属于ES6的新特性？",
+        "options": [
+          { "value": "A", "text": "let/const" },
+          { "value": "B", "text": "箭头函数" },
+          { "value": "C", "text": "解构赋值" },
+          { "value": "D", "text": "var" }
+        ],
+        "correct": ["A", "B", "C"],
+        "score": 10
+      }
+    ]
+  }
+} 
