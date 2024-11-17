@@ -6,7 +6,7 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 window.onload = async function() {
     try {
-        const response = await axios.get('../data/questions.json');
+        const response = await axios.get('./data/questions.json');
         questions = response.data.questions;
         renderQuestions();
     } catch (error) {
